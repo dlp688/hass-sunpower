@@ -14,7 +14,7 @@ DATA_SCHEMA = vol.Schema(
     {
         vol.Required(CONF_HOST): str,
         vol.Required(SUNPOWER_DESCRIPTIVE_NAMES, default=False): bool,
-        vol.Required(SUNPOWER_ESS, default=False): bool,
+        vol.Required(SUNPOWER_ESS, default=True): bool,
     }
 )
 
